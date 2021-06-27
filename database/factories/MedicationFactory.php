@@ -2,17 +2,17 @@
 
 namespace Database\Factories;
 
-use App\Models\MedicationController;
+use App\Models\Medication;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class MedicationControllerFactory extends Factory
+class MedicationFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
      *
      * @var string
      */
-    protected $model = MedicationController::class;
+    protected $model = Medication::class;
 
     /**
      * Define the model's default state.

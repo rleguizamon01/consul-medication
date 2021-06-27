@@ -3,9 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
-use App\Models\Patient;
 
-class PatientSeeder extends Seeder
+class MedicationSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +13,6 @@ class PatientSeeder extends Seeder
      */
     public function run()
     {
-        Patient::factory(20)->create();
+        //
     }
 }
